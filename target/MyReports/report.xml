@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="58.216">
+    <testcase classname="Login Page feature" name="Login with Valid Credential using Examples and placeholder" time="42.422">
+        <system-out><![CDATA[Given user navigates to Guru99Bank url......................................passed
+When user enters "mngr355479" and "EjUtamE".................................passed
+And click on Submit.........................................................passed
+Then user on the Manager Home Page..........................................passed
+And Verify ManagerId is "mngr355479" display on the manager home page.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page feature" name="Login with Valid Credential using Examples and placeholder 2" time="7.288">
+        <system-out><![CDATA[Given user navigates to Guru99Bank url......................................passed
+When user enters "mngr355479" and "EjUtamE".................................passed
+And click on Submit.........................................................passed
+Then user on the Manager Home Page..........................................passed
+And Verify ManagerId is "mngr355479" display on the manager home page.......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page feature" name="Login with Invalid Credential" time="7.815">
+        <system-out><![CDATA[Given user navigates to Guru99Bank url......................................passed
+When user enters "nirav" and "nirav234".....................................passed
+And click on Submit.........................................................passed
+Then Verify Alert Message for invalid username and password.................passed
+]]></system-out>
+    </testcase>
+</testsuite>

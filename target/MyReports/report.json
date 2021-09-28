@@ -1,0 +1,391 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-28T18:03:44.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2780640,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35312805766,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with Valid Credential using Examples and placeholder",
+        "description": "",
+        "id": "login-page-feature;login-with-valid-credential-using-examples-and-placeholder;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2029090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 231927784,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3762763943,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to Guru99Bank url",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_navigates_to_guru99bank_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 760299324,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"mngr355479\" and \"EjUtamE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr355479\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"EjUtamE\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2051459732,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Submit",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13046630,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user on the Manager Home Page",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_on_the_manager_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53929504,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify ManagerId is \"mngr355479\" display on the manager home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr355479\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.verify_manager_id_is_display_on_the_manager_home_page(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-28T18:04:26.765Z",
+        "before": [
+          {
+            "result": {
+              "duration": 489881,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2240582351,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login with Valid Credential using Examples and placeholder",
+        "description": "",
+        "id": "login-page-feature;login-with-valid-credential-using-examples-and-placeholder;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 293423,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 231920431,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2563226564,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to Guru99Bank url",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_navigates_to_guru99bank_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344505282,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"mngr355479\" and \"EjUtamE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr355479\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"EjUtamE\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1817724236,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Submit",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15212823,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user on the Manager Home Page",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_on_the_manager_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63514633,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify ManagerId is \"mngr355479\" display on the manager home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mngr355479\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.verify_manager_id_is_display_on_the_manager_home_page(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-28T18:04:34.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 595023,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1812834739,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Login with Invalid Credential",
+        "description": "",
+        "id": "login-page-feature;login-with-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 495495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 232489287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2641805249,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user navigates to Guru99Bank url",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.user_navigates_to_guru99bank_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 353888191,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enters \"nirav\" and \"nirav234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nirav\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"nirav234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinations.LoginPageSteps.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2763351514,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "click on Submit",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338489,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Verify Alert Message for invalid username and password",
+            "match": {
+              "location": "stepdefinations.LoginPageSteps.verify_alert_message_for_invalid_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page feature",
+    "description": "",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginPage.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testrunners.LoginPageRunner" time="64.607" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/nirav/eclipse-workspace/E-Banking/target/test-classes:/home/nirav/eclipse-workspace/E-Banking/target/classes:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-rc-1/selenium-java-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-rc-1/selenium-api-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-rc-1/selenium-chrome-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/home/nirav/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/home/nirav/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/home/nirav/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/nirav/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/nirav/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/nirav/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/nirav/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/nirav/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/nirav/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-rc-1/selenium-chromium-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-rc-1/selenium-devtools-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-rc-1/selenium-http-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-rc-1/selenium-json-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-rc-1/selenium-devtools-v85-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v92/4.0.0-rc-1/selenium-devtools-v92-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0-rc-1/selenium-devtools-v93-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-rc-1/selenium-edge-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-rc-1/selenium-firefox-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-rc-1/selenium-firefox-xpi-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-rc-1/selenium-ie-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-rc-1/selenium-opera-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-rc-1/selenium-remote-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/home/nirav/.m2/repository/io/netty/netty-buffer/4.1.67.Final/netty-buffer-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-common/4.1.67.Final/netty-common-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport/4.1.67.Final/netty-transport-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-resolver/4.1.67.Final/netty-resolver-4.1.67.Final.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-api/1.5.0/opentelemetry-api-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-context/1.5.0/opentelemetry-context-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.5.0/opentelemetry-exporter-logging-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.5.0-alpha/opentelemetry-sdk-metrics-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.5.0/opentelemetry-sdk-common-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.5.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.5.0/opentelemetry-sdk-trace-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.5.0-alpha/opentelemetry-api-metrics-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.5.0/opentelemetry-sdk-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.5.0-alpha/opentelemetry-semconv-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/home/nirav/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/home/nirav/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/nirav/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/nirav/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/nirav/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/nirav/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/nirav/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/nirav/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/nirav/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-rc-1/selenium-safari-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-rc-1/selenium-support-4.0.0-rc-1.jar:/home/nirav/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/home/nirav/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/nirav/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/nirav/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/nirav/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/nirav/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/nirav/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/nirav/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/nirav/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/nirav/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/nirav/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/nirav/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/home/nirav/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/home/nirav/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/home/nirav/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/home/nirav/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/home/nirav/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/nirav/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/nirav/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-15.0.2/lib"/>
+    <property name="sun.java.command" value="/home/nirav/eclipse-workspace/E-Banking/target/surefire/surefirebooter12171879734520142077.jar /home/nirav/eclipse-workspace/E-Banking/target/surefire 2021-09-28T23-33-36_859-jvmRun1 surefire1540361283533072739tmp surefire_06876419662339753651tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/nirav/eclipse-workspace/E-Banking/target/test-classes:/home/nirav/eclipse-workspace/E-Banking/target/classes:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-java/4.0.0-rc-1/selenium-java-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-api/4.0.0-rc-1/selenium-api-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.0.0-rc-1/selenium-chrome-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/com/google/auto/service/auto-service-annotations/1.0/auto-service-annotations-1.0.jar:/home/nirav/.m2/repository/com/google/auto/service/auto-service/1.0/auto-service-1.0.jar:/home/nirav/.m2/repository/com/google/auto/auto-common/1.0/auto-common-1.0.jar:/home/nirav/.m2/repository/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar:/home/nirav/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/nirav/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/nirav/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/nirav/.m2/repository/org/checkerframework/checker-qual/3.8.0/checker-qual-3.8.0.jar:/home/nirav/.m2/repository/com/google/errorprone/error_prone_annotations/2.5.1/error_prone_annotations-2.5.1.jar:/home/nirav/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.0.0-rc-1/selenium-chromium-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools/4.0.0-rc-1/selenium-devtools-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-http/4.0.0-rc-1/selenium-http-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-json/4.0.0-rc-1/selenium-json-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.0.0-rc-1/selenium-devtools-v85-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v92/4.0.0-rc-1/selenium-devtools-v92-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v93/4.0.0-rc-1/selenium-devtools-v93-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.0.0-rc-1/selenium-edge-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.0.0-rc-1/selenium-firefox-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-firefox-xpi-driver/4.0.0-rc-1/selenium-firefox-xpi-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.0.0-rc-1/selenium-ie-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.0.0-rc-1/selenium-opera-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-rc-1/selenium-remote-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/com/beust/jcommander/1.81/jcommander-1.81.jar:/home/nirav/.m2/repository/io/netty/netty-buffer/4.1.67.Final/netty-buffer-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-codec-http/4.1.67.Final/netty-codec-http-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-codec/4.1.67.Final/netty-codec-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-handler/4.1.67.Final/netty-handler-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-common/4.1.67.Final/netty-common-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.67.Final/netty-transport-native-epoll-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.67.Final/netty-transport-native-kqueue-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.67.Final/netty-transport-native-unix-common-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport/4.1.67.Final/netty-transport-4.1.67.Final.jar:/home/nirav/.m2/repository/io/netty/netty-resolver/4.1.67.Final/netty-resolver-4.1.67.Final.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-api/1.5.0/opentelemetry-api-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-context/1.5.0/opentelemetry-context-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.5.0/opentelemetry-exporter-logging-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.5.0-alpha/opentelemetry-sdk-metrics-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.5.0/opentelemetry-sdk-common-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.5.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.5.0/opentelemetry-sdk-trace-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-api-metrics/1.5.0-alpha/opentelemetry-api-metrics-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.5.0/opentelemetry-sdk-1.5.0.jar:/home/nirav/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.5.0-alpha/opentelemetry-semconv-1.5.0-alpha.jar:/home/nirav/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/home/nirav/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/home/nirav/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/nirav/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/nirav/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/nirav/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/nirav/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/nirav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/nirav/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/nirav/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/nirav/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.0.0-rc-1/selenium-safari-driver-4.0.0-rc-1.jar:/home/nirav/.m2/repository/org/seleniumhq/selenium/selenium-support/4.0.0-rc-1/selenium-support-4.0.0-rc-1.jar:/home/nirav/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/home/nirav/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/nirav/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/nirav/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/nirav/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/nirav/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/nirav/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/nirav/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/nirav/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/nirav/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/nirav/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/nirav/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-java/6.10.4/cucumber-java-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-core/6.10.4/cucumber-core-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-gherkin/6.10.4/cucumber-gherkin-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.10.4/cucumber-gherkin-messages-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/home/nirav/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/home/nirav/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-plugin/6.10.4/cucumber-plugin-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/docstring/6.10.4/docstring-6.10.4.jar:/home/nirav/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/home/nirav/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/home/nirav/.m2/repository/org/apiguardian/apiguardian-api/1.1.1/apiguardian-api-1.1.1.jar:/home/nirav/.m2/repository/io/cucumber/cucumber-junit/6.10.4/cucumber-junit-6.10.4.jar:/home/nirav/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/nirav/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/nirav/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/nirav"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/lib/jvm/jdk-15.0.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/nirav/eclipse-workspace/E-Banking"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/nirav/eclipse-workspace/E-Banking/target/surefire/surefirebooter12171879734520142077.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="nirav"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.11.0-36-generic"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/nirav/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/home/nirav/eclipse-workspace/E-Banking"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="Login with Valid Credential using Examples and placeholder #1" classname="Login Page feature" time="43.053">
+    <system-out><![CDATA[
+@Smoke
+Scenario Outline: Login with Valid Credential using Examples and placeholder # src/test/resources/features/LoginPage.feature:14
+browser is: chrome
+ INFO [main] (LoginPageSteps.java:30)- URL is opened.
+  Given user navigates to Guru99Bank url                                     # stepdefinations.LoginPageSteps.user_navigates_to_guru99bank_url()
+ INFO [main] (LoginPageSteps.java:37)- Entered username.
+ INFO [main] (LoginPageSteps.java:40)- Entered password.
+  When user enters "mngr355479" and "EjUtamE"                                # stepdefinations.LoginPageSteps.user_enters_and(java.lang.String,java.lang.String)
+ INFO [main] (LoginPageSteps.java:46)- Clicked on Submit.
+  And click on Submit                                                        # stepdefinations.LoginPageSteps.click_on_submit()
+  Then user on the Manager Home Page                                         # stepdefinations.LoginPageSteps.user_on_the_manager_home_page()
+  And Verify ManagerId is "mngr355479" display on the manager home page      # stepdefinations.LoginPageSteps.verify_manager_id_is_display_on_the_manager_home_page(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 21080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 28, 2021 11:34:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 28, 2021 11:34:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 94, so returning the closest version found: 93
+Sep 28, 2021 11:34:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 94 of 93
+Sep 28, 2021 11:34:26 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:367)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:398)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+]]></system-err>
+  </testcase>
+  <testcase name="Login with Valid Credential using Examples and placeholder #2" classname="Login Page feature" time="7.298">
+    <system-out><![CDATA[
+@Smoke
+Scenario Outline: Login with Valid Credential using Examples and placeholder # src/test/resources/features/LoginPage.feature:15
+browser is: chrome
+ INFO [main] (LoginPageSteps.java:30)- URL is opened.
+  Given user navigates to Guru99Bank url                                     # stepdefinations.LoginPageSteps.user_navigates_to_guru99bank_url()
+ INFO [main] (LoginPageSteps.java:37)- Entered username.
+ INFO [main] (LoginPageSteps.java:40)- Entered password.
+  When user enters "mngr355479" and "EjUtamE"                                # stepdefinations.LoginPageSteps.user_enters_and(java.lang.String,java.lang.String)
+ INFO [main] (LoginPageSteps.java:46)- Clicked on Submit.
+  And click on Submit                                                        # stepdefinations.LoginPageSteps.click_on_submit()
+  Then user on the Manager Home Page                                         # stepdefinations.LoginPageSteps.user_on_the_manager_home_page()
+  And Verify ManagerId is "mngr355479" display on the manager home page      # stepdefinations.LoginPageSteps.verify_manager_id_is_display_on_the_manager_home_page(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 8192
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 28, 2021 11:34:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 28, 2021 11:34:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 94, so returning the closest version found: 93
+Sep 28, 2021 11:34:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 94 of 93
+]]></system-err>
+  </testcase>
+  <testcase name="Login with Invalid Credential" classname="Login Page feature" time="7.803">
+    <system-out><![CDATA[
+@Smoke
+Scenario: Login with Invalid Credential                       # src/test/resources/features/LoginPage.feature:38
+browser is: chrome
+ INFO [main] (LoginPageSteps.java:30)- URL is opened.
+  Given user navigates to Guru99Bank url                      # stepdefinations.LoginPageSteps.user_navigates_to_guru99bank_url()
+ INFO [main] (LoginPageSteps.java:37)- Entered username.
+ INFO [main] (LoginPageSteps.java:40)- Entered password.
+  When user enters "nirav" and "nirav234"                     # stepdefinations.LoginPageSteps.user_enters_and(java.lang.String,java.lang.String)
+ INFO [main] (LoginPageSteps.java:46)- Clicked on Submit.
+  And click on Submit                                         # stepdefinations.LoginPageSteps.click_on_submit()
+  Then Verify Alert Message for invalid username and password # stepdefinations.LoginPageSteps.verify_alert_message_for_invalid_username_and_password()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 7983
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 28, 2021 11:34:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Sep 28, 2021 11:34:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 94, so returning the closest version found: 93
+Sep 28, 2021 11:34:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 94 of 93
+]]></system-err>
+  </testcase>
+</testsuite>

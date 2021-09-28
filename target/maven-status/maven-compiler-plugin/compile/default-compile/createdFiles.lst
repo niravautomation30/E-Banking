@@ -1,0 +1,6 @@
+factory/DriverFactory.class
+pages/ManagerHomepage.class
+pages/AddCustomerPage.class
+pages/LoginPage.class
+configreader/ConfigPropReader.class
+utilities/WaitHelper.class
