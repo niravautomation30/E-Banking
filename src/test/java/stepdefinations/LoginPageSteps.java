@@ -1,6 +1,7 @@
 package stepdefinations;
 
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -52,11 +53,6 @@ public class LoginPageSteps {
 		Assert.assertTrue(actMngrHomePageTitle.contains("Guru99 Bank Manager HomePage"));
 	}
 	
-	@Then("Verify ManagerId is mngr355479 display on the manager home page")
-	public void verify_manager_id_is_mngr355479_display_on_the_manager_home_page() {
-
-	}
-	
 	
 	@When("user enters following data")
 	public void user_enters_following_data(DataTable dataTable) {
@@ -82,8 +78,16 @@ public class LoginPageSteps {
 	}
 
 	@When("user enters following data with column name")
-	public void user_enters_following_data_with_column_name(io.cucumber.datatable.DataTable dataTable) {
+	public void user_enters_following_data_with_column_name(DataTable dataTable) {
 	
+		List<Map<String,String>> userList= dataTable.asMaps(String.class,String.class);
+		System.out.println(userList);
+		System.out.println(userList.get(0).get("username"));
+		
+		for(Map<String,String> e : userList) {
+			System.out.println(e.get("username"));
+			System.out.println(e.get("password"));
+		}
 	}
 
 }
